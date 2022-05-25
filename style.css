@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    background-color: rgb(75, 10, 75);
+    margin-bottom: 80px;
+}
+.container{
+    max-width: 1080px;
+    margin: 0px auto;
+}
+
+.head1{
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+}
+.mainsec{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.flex1{
+    display: flex;
+    justify-content: space-between;
+}
+.a1{
+    text-decoration: none;
+    color: white;
+    padding: 0px 20px 0px 40px
+}
+.main1{
+    width: 300px;
+    margin: auto 0;
+    border-radius: 30px;
+    justify-content: space-between;
+    /* padding: 20px; */
+}
+.boxl{
+    border: 1px solid rgb(243, 168, 243);
+    background-color: rgb(241, 149, 241);
+    width: 250px;
+    height: 500px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    /* float: left; */
+    flex-direction: column;
+    border-radius: 10px;
+}
+.topl{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    font-size: 20px;
+}
+.topl a{
+    text-decoration: none;
+    color: rgb(53, 10, 53);
+    padding: 15px 0px 10px 5px
+}
+.lastl a{
+    padding: 10px 60px 10px 50px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(53, 10, 53);
+    font-size: 20px;
+    
+} 
+.img1{
+    width: 180px;
+    height: auto;
+    margin: 10px;
+} 
+.images{
+    
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+} 
+.outerbox{
+    background-color:  rgb(241, 149, 241);
+    width: 700px;
+    height: 550px;
+    border-radius: 20px;
+    /* justify-content: space-between; */
+    
+}
+.foot {
+    padding: 30px;
+    margin-top: 50px;
+    background-color: rgb(53, 10, 53);
+}
+.footname {
+    font-size: 18px;
+    color: white;
+}
+
+.nav2 a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    
+}
+.nav2 a:hover{
+    color: yellow;
+    font-size: 23px;
+}
+.lboc{
+    max-width: 1200px;
+    margin: auto;
+}
+.cont1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.imgname{
+        padding: 20px;
+   
+}
+.icon{
+    padding: 10px
+}
